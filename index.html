@@ -28,7 +28,10 @@ h1{font-size:20px;text-transform:uppercase;letter-spacing:.06em;text-align:cente
 .link:active{transform:scale(.98)}
 .link b{display:block;font-size:15px;font-weight:600;letter-spacing:.02em}
 .link small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
-.link::after{content:"→";color:var(--sand);font-size:20px}
+/* Let long titles wrap inside the card instead of pushing the arrow out */
+.link span{flex:1;min-width:0}
+.link::after{content:"→";color:var(--sand);font-size:20px;flex-shrink:0}
+.link:focus-visible{outline:2px solid var(--sand);outline-offset:2px}
 .link.main{background:var(--sand);border-color:var(--sand);color:var(--ink)}
 .link.main small{color:#3a3328}
 .link.main::after{color:var(--ink)}
@@ -54,8 +57,8 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:0 20px 28px}
     <a class="link" href="https://instagram.com/alexeygoncharovphoto">
       <span><b>Весілля та love story</b><small>@alexeygoncharovphoto</small></span>
     </a>
-    <a class="link" href="https://instagram.com/alexgoncharovph">
-      <span><b>Закулісся та ідеї</b><small>@alexgoncharovph</small></span>
+    <a class="link" href="https://instagram.com/alexgoncharovph" aria-label="Запасний акаунт для зв’язку в Instagram: @alexgoncharovph">
+      <span><b>Запасний акаунт для зв’язку</b><small>@alexgoncharovph</small></span>
     </a>
   </nav>
 
