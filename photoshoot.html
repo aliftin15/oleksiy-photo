@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Фотосесія в Харкові та Києві · Олексій Гончаров</title>
+<meta name="description" content="Фотосесія, на якій вам комфортно. Підкажу пози, образ і локацію. Усі фото без обробки наступного дня. Ціни, умови та запис.">
+<meta property="og:title" content="Фотосесія, на якій вам комфортно · Харків, Київ">
+<meta property="og:description" content="Ціни, що входить, як записатися. Напишіть «ЗЙОМКА» в Direct.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#16171a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#16171a; --bg2:#1e2024; --line:#32353b; --text:#f3f1ed; --muted:#a9a7a2;
+  --sand:#d9b98a; --sand-d:#b8976a; --ink:#16171a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:Montserrat,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+a{color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h1,h2,h3{font-weight:700;letter-spacing:.02em;line-height:1.2}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--sand);font-weight:600;margin-bottom:14px}
+h1{font-size:clamp(30px,8.4vw,44px);text-transform:uppercase}
+h1 em{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:500;text-transform:none;color:var(--sand);letter-spacing:0}
+h2{font-size:22px;text-transform:uppercase;margin-bottom:20px}
+.lead{color:var(--muted);margin-top:18px;font-size:17px}
+.hero{padding:56px 20px 40px;border-top:0}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--sand);color:var(--ink);text-decoration:none;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:14px;padding:17px 22px;border-radius:999px;transition:background .2s,transform .2s}
+.btn:hover{background:#e6c99d}
+.btn:active{transform:scale(.98)}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.hero .btn{margin-top:28px}
+.back{display:inline-block;font-size:13px;color:var(--muted);text-decoration:none;margin-bottom:22px}
+.back:hover{color:var(--sand)}
+.hint{font-size:13px;color:var(--muted);margin-top:12px;text-align:center}
+.hint b{color:var(--sand);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chips span{font-size:13px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;color:var(--text)}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gallery img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;background:var(--bg2)}
+.gallery:empty,.has-no-photos{display:none}
+ul.ticks{list-style:none;display:grid;gap:14px}
+ul.ticks li{padding-left:30px;position:relative}
+ul.ticks li::before{content:"";position:absolute;left:0;top:7px;width:14px;height:8px;border-left:2px solid var(--sand);border-bottom:2px solid var(--sand);transform:rotate(-45deg)}
+ul.ticks b{font-weight:600}
+.cards{display:grid;gap:14px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:24px 22px}
+.card.top{border-color:var(--sand-d)}
+.badge{display:inline-block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;background:var(--sand);color:var(--ink);font-weight:700;padding:4px 10px;border-radius:999px;margin-bottom:12px}
+.card h3{font-size:19px;text-transform:uppercase}
+.card .for{color:var(--muted);font-size:14px;margin:6px 0 16px}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.price div{background:var(--bg);border-radius:10px;padding:12px 14px}
+.price small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.price strong{font-size:22px;font-weight:700;color:var(--sand)}
+.price strong i{font-style:normal;font-size:13px;color:var(--muted);font-weight:500}
+.card ul{list-style:none;display:grid;gap:8px;font-size:15px}
+.card li{padding-left:18px;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--sand-d)}
+.note{margin-top:18px;padding:18px 20px;background:var(--bg2);border-left:3px solid var(--sand);border-radius:0 10px 10px 0;font-size:15px}
+.note b{color:var(--sand)}
+.extras{display:grid;gap:0}
+.extras div{display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid var(--line);font-size:15px}
+.extras div span:last-child{color:var(--sand);font-weight:600;text-align:right;white-space:nowrap}
+ol.steps{list-style:none;counter-reset:s;display:grid;gap:18px}
+ol.steps li{counter-increment:s;padding-left:54px;position:relative}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:38px;height:38px;border-radius:50%;border:1px solid var(--sand);color:var(--sand);display:flex;align-items:center;justify-content:center;font-weight:600}
+ol.steps b{display:block;font-weight:600}
+ol.steps span{color:var(--muted);font-size:15px}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--sand);font-size:22px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);margin-top:10px;font-size:15px}
+.final{text-align:center}
+.final p{color:var(--muted);margin:14px 0 24px}
+.keyword{display:inline-block;font-weight:700;letter-spacing:.14em;color:var(--sand);border:1px dashed var(--sand-d);padding:6px 16px;border-radius:8px}
+footer{padding:28px 0 40px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+footer a{color:var(--text)}
+.sticky{position:fixed;left:0;right:0;bottom:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:linear-gradient(to top,var(--bg) 70%,transparent);z-index:5}
+.sticky .btn{max-width:600px;margin:0 auto;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="wrap hero">
+  <a class="back" href="./">← Усі посилання</a>
+  <div class="eyebrow">Олексій Гончаров · фотограф · Харків, Київ</div>
+  <h1>Фотосесія, на якій <em>вам комфортно</em></h1>
+  <p class="lead">Зі мною легко і весело. Підкажу кожну позу, допоможу з образом і локацією. Ви отримуєте живі кадри, а не позування «за командою».</p>
+  <div class="chips">
+    <span>Усі фото без обробки — наступного дня</span>
+    <span>Підкажу пози, навіть якщо ви ніколи не позували</span>
+    <span>Від 3 500 грн</span>
+  </div>
+  <a class="btn" href="https://ig.me/m/alexeygoncharovph" data-cta="hero">Записатися в Direct</a>
+  <p class="hint">Напишіть слово <b>ЗЙОМКА</b>, місто та бажану дату</p>
+</header>
+
+<main class="wrap">
+
+  <section class="has-no-photos" id="portfolio" aria-label="Приклади робіт">
+    <h2>Роботи</h2>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section id="for-you">
+    <h2>Чому з цього почнете</h2>
+    <ul class="ticks">
+      <li><b>Не треба вміти позувати.</b> Я підказую рух за рухом, тому кадри виходять природними.</li>
+      <li><b>Образи обговорюємо заздалегідь.</b> Ви не гадаєте, що вдягти і куди дивитися.</li>
+      <li><b>Усі фото без обробки — наступного дня.</b> Готові фото в детальній обробці — у зазначений термін.</li>
+      <li><b>Прозорі умови.</b> Ціна, що входить і правила броні — нижче, без сюрпризів.</li>
+    </ul>
+  </section>
+
+  <section id="prices">
+    <h2>Ціни</h2>
+    <div class="cards">
+
+      <article class="card">
+        <h3>1 година · Експрес</h3>
+        <p class="for">Для першого знайомства з фотосесією або швидкого оновлення фото.</p>
+        <div class="price">
+          <div><small>Харків</small><strong>3 500 <i>грн</i></strong></div>
+          <div><small>Київ</small><strong>4 000 <i>грн</i></strong></div>
+        </div>
+        <ul>
+          <li>2 образи, які обговорюємо заздалегідь</li>
+          <li>Усі фото без обробки — наступного дня</li>
+          <li>15 фото на ваш вибір у детальній обробці</li>
+          <li>Готові фото — до 7 днів</li>
+        </ul>
+      </article>
+
+      <article class="card top">
+        <span class="badge">Найчастіше обирають</span>
+        <h3>2 години · Стандарт</h3>
+        <p class="for">Для особистого бренду, контенту для соцмереж або повноцінної серії.</p>
+        <div class="price">
+          <div><small>Харків</small><strong>7 000 <i>грн</i></strong></div>
+          <div><small>Київ</small><strong>8 000 <i>грн</i></strong></div>
+        </div>
+        <ul>
+          <li>4 образи, час на зміну світла й акцентів</li>
+          <li>Усі фото без обробки — наступного дня</li>
+          <li>30 фото на ваш вибір у детальній обробці</li>
+          <li>Готові фото — до 10 робочих днів</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>3 години · Розширена</h3>
+        <p class="for">Для великого проєкту: контент для бізнесу, історія в кількох образах.</p>
+        <div class="price">
+          <div><small>Харків</small><strong>10 500 <i>грн</i></strong></div>
+          <div><small>Київ</small><strong>12 000 <i>грн</i></strong></div>
+        </div>
+        <ul>
+          <li>6 образів, час на різні сцени й настрої</li>
+          <li>Усі фото без обробки — наступного дня</li>
+          <li>45 фото на ваш вибір у детальній обробці</li>
+          <li>Готові фото — до 14 робочих днів</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="note">
+      <b>Оренда студії оплачується окремо і є бронюванням фотосесії.</b> Ціни вище — без студії. Студія від 1 500 грн; точну суму для вашої дати називаю до броні. Після оплати студії дата за вами. Вартість зйомки (моя робота) оплачується після зйомки.
+    </div>
+  </section>
+
+  <section id="extras">
+    <h2>Додатково</h2>
+    <div class="extras">
+      <div><span>Візажист (окремо)</span><span>від 2 000 грн</span></div>
+      <div><span>Додаткове фото в детальній обробці</span><span>100 грн</span></div>
+      <div><span>Термінова готовність, до 3 днів</span><span>+30% до зйомки</span></div>
+      <div><span>Друк фото</span><span>від 50 грн / шт</span></div>
+      <div><span>Оренда одягу (окремо)</span><span>за домовленістю</span></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>Як це відбувається</h2>
+    <ol class="steps">
+      <li><b>Ви пишете мені</b><span>Тип зйомки, місто і бажана дата.</span></li>
+      <li><b>Я підбираю час і студію</b><span>Називаю вільні варіанти та суму оренди.</span></li>
+      <li><b>Ви вносите бронь</b><span>Після оплати студії дата за вами.</span></li>
+      <li><b>Обговорюємо стиль</b><span>У Telegram-чаті: образи, референси, локація.</span></li>
+      <li><b>Зйомка</b><span>Я підказую кожну позу, навіть якщо ви ніколи не позували.</span></li>
+      <li><b>Фото</b><span>Наступного дня — усі фото без обробки. Готові в обробці — у зазначений термін; в галереї вони зберігаються 1 рік.</span></li>
+    </ol>
+  </section>
+
+  <section id="faq">
+    <h2>Часті питання</h2>
+    <details><summary>Я не вмію позувати. Це проблема?</summary><p>Ні. Я підказую рух за рухом, тому кадри виходять природними.</p></details>
+    <details><summary>А якщо я хвилююсь?</summary><p>Це нормально. Перші хвилини ми звикаємо до камери, я допомагаю й підказую.</p></details>
+    <details><summary>Чи можна прийти зі своїм одягом і візажем?</summary><p>Так. Одяг і візаж обираємо разом, коли узгоджуємо образи. Візажист — окрема послуга від 2 000 грн.</p></details>
+    <details><summary>Що з оригіналами?</summary><p>Усі фото без обробки ви отримуєте наступного дня.</p></details>
+    <details><summary>Скільки зберігаються фото?</summary><p>Готові фото в обробці зберігаються в онлайн-галереї 1 рік.</p></details>
+    <details><summary>Чи можна перенести зйомку?</summary><p>Так, один раз, якщо повідомити щонайменше за 48 годин. Якщо зйомка скасовується пізніше, бронь не повертається, бо студія вже оплачена.</p></details>
+    <details><summary>Чи опублікуєте мої фото?</summary><p>Ні, без вашої згоди фото не публікуються.</p></details>
+  </section>
+
+  <section class="final" id="book">
+    <h2>Залишилось написати</h2>
+    <p>Напишіть мені в Direct слово <span class="keyword">ЗЙОМКА</span> і вкажіть місто: Харків чи Київ. Я відповім і підберу вільний час.</p>
+    <a class="btn" href="https://ig.me/m/alexeygoncharovph" data-cta="final">Записатися в Direct</a>
+    <p class="hint" style="margin-top:14px">Весілля та love story — в окремому профілі <a href="https://instagram.com/alexeygoncharovphoto">@alexeygoncharovphoto</a></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© Олексій Гончаров · <a href="https://instagram.com/alexeygoncharovph">@alexeygoncharovph</a></div>
+</footer>
+
+<div class="sticky"><a class="btn" href="https://ig.me/m/alexeygoncharovph" data-cta="sticky">Написати «ЗЙОМКА» в Direct</a></div>
+
+<script>
+// Галерея: покладіть фото у папку photos/ як 1.jpg ... 6.jpg (до 1600 px по довшій стороні).
+// Лише ті, що існують, з'являються; якщо жодного немає, блок «Роботи» лишається прихованим.
+(function(){
+  var box=document.getElementById('gallery'),sec=document.getElementById('portfolio'),shown=0;
+  for(var i=1;i<=6;i++){
+    (function(n){
+      var im=new Image();
+      im.onload=function(){
+        im.alt='Приклад роботи '+n;im.loading='lazy';box.appendChild(im);
+        if(!shown++){sec.classList.remove('has-no-photos');}
+      };
+      im.src='photos/'+n+'.jpg';
+    })(i);
+  }
+})();
+</script>
+</body>
+</html>
